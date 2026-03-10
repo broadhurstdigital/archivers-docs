@@ -1,0 +1,46 @@
+/**
+ * The Archiver Help Centre — Custom CSS
+ * Brand colour: #B8860B (dark goldenrod)
+ */
+
+:root {
+  --ifm-color-primary: #B8860B;
+  --ifm-color-primary-dark: #9a7009;
+  --ifm-color-primary-darker: #916908;
+  --ifm-color-primary-darkest: #785706;
+  --ifm-color-primary-light: #c99a1a;
+  --ifm-color-primary-lighter: #d0a321;
+  --ifm-color-primary-lightest: #dbb53a;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #d4a017;
+  --ifm-color-primary-dark: #bc8f14;
+  --ifm-color-primary-darker: #b18712;
+  --ifm-color-primary-darkest: #91700f;
+  --ifm-color-primary-light: #dbb53a;
+  --ifm-color-primary-lighter: #dfbc48;
+  --ifm-color-primary-lightest: #e6cb6a;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Hero banner on intro page */
+.hero--primary {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+}
+
+/* Improve readability of article content */
+.markdown h2 {
+  margin-top: 2rem;
+}
+
+.markdown h3 {
+  margin-top: 1.5rem;
+}
+
+/* Callout admonitions */
+.alert--tip {
+  border-left-color: var(--ifm-color-primary);
+}
