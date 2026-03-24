@@ -21,8 +21,18 @@ const sidebars: SidebarsConfig = {
         'accessions/uploading-files',
         'accessions/reviewing-classifications',
         'accessions/custom-fields',
+        'accessions/how-ai-processing-works',
         'accessions/managing-accessions',
         'accessions/multi-page-tiffs',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Audio & Video',
+      items: [
+        'audio-video/supported-formats',
+        'audio-video/playing-media',
+        'audio-video/transcription',
       ],
     },
     {
